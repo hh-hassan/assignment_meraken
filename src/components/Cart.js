@@ -8,7 +8,7 @@ const Cart = () => {
     const dispatch = useDispatch();
 
     const itemAmount = cartItems.reduce((total, item) => {
-        return total + (item.count * (item.price/100 || item.defaultPrice/100));
+        return total + (item.count * item.price/100);
     }, 0);
 
     const GST = Number((0.05 * itemAmount).toFixed(2));
@@ -38,7 +38,7 @@ const Cart = () => {
                                     <div className="flex flex-1 justify-center items-center" onClick={() => dispatch(addItem(item))}>+</div>
                             </div>
 
-                            <div className="flex justify-end w-[20%]">₹{(item.count) * (item.price/100 || item.defaultPrice/100)}</div> 
+                            <div className="flex justify-end w-[20%]">₹{item.count * item.price}</div> 
                             
                         </div>)}
                 </div>
