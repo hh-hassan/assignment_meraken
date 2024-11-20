@@ -28,7 +28,7 @@ const Header = () => {
                 </Link>
             </svg>
 
-            <div className="flex justify-between text-[15px]">
+            <div className="flex justify-between text-lg font-semibold">
                 
                 <div className="pl-10 pr-2 cursor-pointer py-[2px] hover:text-[#ff5200]" onClick={() => navigate('/')}>HOME</div>
                 
@@ -36,7 +36,7 @@ const Header = () => {
                     
                     onClick={() => navigate('/checkout')}>
 
-                        <svg className="w-5 h-5 fill-white stroke-black stroke-[2px] pr-2 group-hover:stroke-[#ff5200]" viewBox="-1 0 37 32">
+                        <svg className="w-8 h-8 fill-white stroke-black stroke-[2px] pr-2 group-hover:stroke-[#ff5200]" viewBox="-1 0 37 32">
                             <path d={CART_PATH} />
                             <text x="50%" y="50%" textAnchor="middle" dy=".3em" className="text-[22px]">{cartItems.reduce((sum, item) => sum + item.count, 0)}</text>
                         </svg>
