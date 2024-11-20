@@ -2,6 +2,15 @@
 
 This project is a web application built using React.js, Tailwind CSS, Redux with RTK Toolkit for state management, react-select for category filters functionality, & react-icons for cute icons.
 
+## Technologies Used
+
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Redux](https://redux.js.org/)
+- [RTK Toolkit](https://redux-toolkit.js.org/)
+- [react-select](https://react-select.com/)
+- [react-icons](https://react-icons.github.io/react-icons/)
+
 ## Features
 
 - Product Listing
@@ -29,14 +38,13 @@ This project is a web application built using React.js, Tailwind CSS, Redux with
 - Build Cart page and show billing details
 - Deployed the Web App on Vercel (https://assignment-meraken.vercel.app/)
 
-## Technologies Used
+## Challenges faced and how I overcame them
 
-- [React.js](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Redux](https://redux.js.org/)
-- [RTK Toolkit](https://redux-toolkit.js.org/)
-- [react-select](https://react-select.com/)
-- [react-icons](https://react-icons.github.io/react-icons/)
+- State Management: Simplifying global state handling for features like cart management was achieved using Redux with RTK Toolkit for its pre-configured setup and efficient reducers.
+
+- Dynamic Filtering: Implemented multi-select category filtering with react-select, ensuring real-time updates and a responsive UI.
+
+- Data Cleaning: Processed and structured live Swiggy data to ensure compatibility and seamless integration with the application.
 
 ## Setup Instructions
 
