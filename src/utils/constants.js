@@ -5,4 +5,12 @@ export const CDN_URL =
     "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/";
 
 export const API_URL =
-    "https://run.mocky.io/v3/fcb669b0-3e30-4d16-8b1d-66cb87293607";
+    "https://run.mocky.io/v3/45140166-bec0-427e-a141-746f7f931f1a";
+
+export const categories = [
+    { value: 'family feast', label: 'Family Feast' },
+    { value: 'burger', label: 'Burger' },
+    { value: 'chicken bucket', label: 'Chicken Bucket' },
+    { value: 'chicken meal', label: 'Chicken Meal' },
+    { value: 'roll', label: 'Roll' },
+];
