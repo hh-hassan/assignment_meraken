@@ -9,7 +9,7 @@ const EnlargedItemCard = ({props}) => {
     
     const {
         name,
-        price, defaultPrice,
+        price,
         description,
         imageId
 
@@ -31,7 +31,7 @@ const EnlargedItemCard = ({props}) => {
 
                 <div className="w-full md:w-1/2">
                     <div className="py-[5px] text-[17px] font-bold">{name}</div>
-                    <div className="py-[5px] text-[17px] font-bold">₹{defaultPrice/100 || price/100}</div>
+                    <div className="py-[5px] text-[17px] font-bold">₹{price/100}</div>
                     <div className="hidden md:block">{description}</div>
                 </div>
 
