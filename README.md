@@ -19,7 +19,7 @@ This project is a web application built using React.js, Tailwind CSS, Redux with
 - Category Filter
 - Responsive Design
 - State Management
-- Use React hooks (useState, useEffect) for managing component state
+- Use React hooks (useState, useEffect, useRef, useContext) for managing component state
 - Reusable Components
 
 ## Optional Enhancements
@@ -30,8 +30,8 @@ This project is a web application built using React.js, Tailwind CSS, Redux with
 - Display the number of items in the cart
 - Animations
 - Custom Styles
-- Avoid reliance on comprehensive third-party UI libraries and used Tailwind for styling.
-- Use of API Instead of Static JSON:
+- Avoid reliance on comprehensive third-party UI libraries and used Tailwind for styling
+- Use of API Instead of Static JSON
 
 ## Additional features
 
