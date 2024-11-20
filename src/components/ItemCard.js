@@ -11,7 +11,7 @@ const ItemCard = ({props}) => {
     
     const {
         name,
-        price, defaultPrice,
+        price,
         imageId
     } = props;
 
@@ -32,7 +32,7 @@ const ItemCard = ({props}) => {
                     
                     <div className="w-60 md:w-96">
                         <div className="py-[5px] text-[17px] font-bold">{name}</div>
-                        <div className="py-[5px] text-[17px] font-bold">₹{defaultPrice/100 || price/100}</div>
+                        <div className="py-[5px] text-[17px] font-bold">₹{price/100}</div>
                     </div>
                     
                     <div className="my-2 flex items-center justify-center h-8 md:h-10 bg-purple-300 hover:bg-purple-400 w-28 rounded-md cursor-pointer" onClick={() => setEnlarged(props)}>View Details</div>
