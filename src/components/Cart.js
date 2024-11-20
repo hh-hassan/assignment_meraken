@@ -56,7 +56,7 @@ const Cart = () => {
 
                         <div className="m-2 flex justify-between">
                             <div>Platform fee</div>
-                            <div>₹6</div>
+                            <div>₹{itemAmount === 0 ? 0 : 6}</div>
                         </div>
 
                         <div className="m-2 flex justify-between">
@@ -70,7 +70,7 @@ const Cart = () => {
                 
                 <div className="m-2 flex justify-between font-bold">
                     <div>TO PAY</div>
-                    <div>₹{itemAmount + 6 + GST}</div>
+                    <div>₹{itemAmount === 0 ? 0 : itemAmount + 6 + GST}</div>
                 </div>
 
                 <div className="flex justify-center items-center m-5 mx-auto w-full h-10 font-bold text-white bg-[#ff5200] cursor-pointer">
