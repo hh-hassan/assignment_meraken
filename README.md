@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Assignment MERAKEN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application built using React.js, Tailwind CSS, Redux with RTK Toolkit for state management, react-select for category filters functionality, & react-icons for cute icons.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Product Listing
+- Product Details
+- Search Functionality
+- Category Filter
+- Responsive Design
+- State Management
+- Use React hooks (useState, useEffect) for managing component state
+- Reusable Components
 
-### `npm start`
+## Optional Enhancements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Sorting
+- Add to Cart Functionality
+- Enable users to add products to a cart
+- Display the number of items in the cart
+- Animations
+- Custom Styles
+- Avoid reliance on comprehensive third-party UI libraries and used Tailwind for styling.
+- Use of API Instead of Static JSON:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Additional features
 
-### `npm test`
+- Build Cart page and show billing details
+- Deployed the Web App on Vercel (https://assignment-meraken.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Redux](https://redux.js.org/)
+- [RTK Toolkit](https://redux-toolkit.js.org/)
+- [react-select](https://react-select.com/)
+- [react-icons](https://react-icons.github.io/react-icons/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/hh-hassan/assignment_meraken.git
 
-### `npm run eject`
+2. **Navigate to the project directory:**
+    
+   ```bash
+   cd assignment_meraken
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    **Make sure you have Node.js installed. Then run:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Run the development server:**
 
-## Learn More
+    **Start the application in development mode:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open your browser:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit http://localhost:3000 to view the application in your browser.
